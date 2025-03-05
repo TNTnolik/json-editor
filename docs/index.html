@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Генератор ролей</title>
+        <link rel="stylesheet" href="https://tntnolik.github.io/json-editor/main-e7f93b8811803e40.css" integrity="sha384&#x2D;4vJXi6jLvuQaICbCL9UpMC4OR2mbdNk&#x2F;a40myUHusg8OtkhTQajDCjJ6ctUoDcXS"/>
+    <link rel="modulepreload" href="https://tntnolik.github.io/json-editor/json-editor-aef67f08feb454d9.js" crossorigin=anonymous integrity="sha384-nwPgDf+7SW1wtIKnzJ0F71aFletE8YDh4VPfv/+0CbsMGg/ZdZEpI5XoFzeUDjdE"><link rel="preload" href="https://tntnolik.github.io/json-editor/json-editor-aef67f08feb454d9_bg.wasm" crossorigin=anonymous integrity="sha384-FPrJ3zWblrb8kg/vtDXllqrQw2Cr4wzKQUMm7UfAhV8TNM+k7WwytYw2l58Jmg4i" as="fetch" type="application/wasm"></head>
+    <body>
+<script type="module" nonce="8udwYcafefdD4Igc5TEjDA==">
+import init, * as bindings from 'https://tntnolik.github.io/json-editor/json-editor-aef67f08feb454d9.js';
+const wasm = await init({ module_or_path: 'https://tntnolik.github.io/json-editor/json-editor-aef67f08feb454d9_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
