@@ -1,0 +1,3 @@
+[build]
+public_url = "https://tntnolik.github.io/json-editor/"
+dist = "docs" 
