@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left h2 {
+    margin-bottom: 15px;
+}
+
+.upload-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.output {
+    white-space: pre-wrap;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.save-btn {
+    background: green;
+    color: #fff;
+}
+
+.test-btn {
+    background: rgb(100, 100, 100);
+    color: #fff;
+}
+
+.reset-btn {
+    background: red;
+    color: #fff;
+}
+
+.saved-list {
+    margin-top: 20px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5;
+}
+
+.saved-list ul {
+    margin-top: 5px;
+}
+
+.entry-buttons button {
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.edit-btn {
+    background: rgb(51, 32, 223);
+    color: white;
+}
+
+.delete-btn {
+    background: #bb0b46;
+    color: white;
+}
